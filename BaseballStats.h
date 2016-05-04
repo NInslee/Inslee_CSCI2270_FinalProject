@@ -42,7 +42,7 @@ class BaseballStats
         void printTeams();///Print the teams in the league
         bool checkTeamExists(string teamName);///Check if team exists
 		void menu();//menu
-		void choiceDisplay(std::string header, std::string aContent = NULL);//show user what to choose
+		void choiceDisplay(std::string header, std::string aContent = "");//show user what to choose
     protected:
     private:
         Team *head = NULL;
