@@ -371,9 +371,9 @@ void BaseballStats::menu(){
     cout<<"7. Quit\n";
 }
 
-void BaseballStats::choiceDisplay(std::string header, std::string aContent = NULL){
+void BaseballStats::choiceDisplay(std::string header, std::string aContent){
 	std::cout << "======" << header << "======\n";
-	if(aContent){
+	if(aContent != ""){
 		std::cout << aContent << "\n";
 	}
 }
